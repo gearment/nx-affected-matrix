@@ -55,14 +55,14 @@ outputs:
 runs:
   using: 'composite'
   steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       if: ${{ fromJSON(inputs.checkout) }}
       with:
         fetch-depth: 0
         clean: false
 
     - name: Derive appropriate SHAs for base and head for `nx affected` commands
-      uses: nrwl/nx-set-shas@v2
+      uses: nrwl/nx-set-shas@v4
       with:
         main-branch-name: ${{ inputs.main-branch }}
         workflow-id: ${{ inputs.workflow-id }}
