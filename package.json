@@ -1,19 +1,19 @@
 {
-  "name": "@e-square/nx-affected-matrix",
+  "name": "@gearment/nx-affected-matrix",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e-square-io/nx-github-actions.git",
+    "url": "git+https://github.com/gearment/nx-github-actions.git",
     "directory": "packages/nx-affected-matrix"
   },
   "bugs": {
-    "url": "https://github.com/e-square-io/nx-github-actions/issues"
+    "url": "https://github.com/gearment/nx-github-actions/issues"
   },
   "dependencies": {
     "@actions/artifact": "^1.0.0",
     "@actions/cache": "^1.0.9",
-    "nx": "13.10.6",
-    "@nrwl/devkit": "13.10.6"
+    "nx": "19.1.2",
+    "@nrwl/devkit": "19.1.2"
   },
   "main": "main.js"
 }
